@@ -32,7 +32,7 @@ h1,h2,h3{
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD DATA ----------------
-df = pd.read_csv("../Data/Nassau Candy Distributor.csv")
+df = pd.read_csv("Notebook/Data/Nassau Candy Distributor.csv")
 
 # Clean columns
 df.columns = df.columns.str.strip()
